@@ -20,7 +20,7 @@ class FIFOCache(BaseCaching):
 
     def put(self, key, item):
         """
-        assign to the dictionary self.cache_data
+        Assign to the dictionary self.cache_data
         the item value for the key
         """
         if key and item:
